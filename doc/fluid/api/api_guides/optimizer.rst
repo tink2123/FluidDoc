@@ -40,7 +40,7 @@ API Reference 请参考 :ref:`api_fluid_optimizer_AdagradOptimizer`
 `RMSProp优化器 <http://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf>`_ ，是一种自适应调整学习率的方法，
 主要解决使用Adagrad后，模型训练中后期学习率急剧下降的问题。
 
-API Reference 请参考 :ref:`api_fluid_optimizer_RMSPropOptimizer`
+API Reference 请参考 :ref:`_api_fluid_optimizer_RMSPropOptimizer`
 
 
 
