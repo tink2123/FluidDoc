@@ -7,3 +7,4 @@ API guides
 
     executor.rst
     optimizer.rst
+    conv.rst
