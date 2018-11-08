@@ -1,0 +1,810 @@
+{
+    "sections": [
+        {
+            "sections": [
+                {
+                    "link": {
+                        "en": "getstarted/quickstart_en.rst"
+                    }, 
+                    "title": {
+                        "en": "Quick Start"
+                    }
+                }, 
+                {
+                    "link": {
+                        "en": "getstarted/concepts/index_en.rst"
+                    }, 
+                    "title": {
+                        "en": "Concepts"
+                    }
+                }
+            ], 
+            "link": {
+                "en": "getstarted/index_en.rst"
+            }, 
+            "title": {
+                "en": "GET STARTED"
+            }
+        }, 
+        {
+            "sections": [
+                {
+                    "link": {
+                        "en": "build_and_install/pip_install_en.rst"
+                    }, 
+                    "title": {
+                        "en": "Install using pip"
+                    }
+                }, 
+                {
+                    "link": {
+                        "en": "build_and_install/docker_install_en.rst"
+                    }, 
+                    "title": {
+                        "en": "Run in Docker Containers"
+                    }
+                }, 
+                {
+                    "link": {
+                        "en": "build_and_install/build_from_source_en.rst"
+                    }, 
+                    "title": {
+                        "en": "Build from Sources"
+                    }
+                }
+            ], 
+            "link": {
+                "en": "build_and_install/index_en.rst"
+            }, 
+            "title": {
+                "en": "install and Compile"
+            }
+        }, 
+        {
+            "sections": [
+                {
+                    "sections": [
+                        {
+                            "link": {
+                                "en": "design/motivation/api.md"
+                            }, 
+                            "title": {
+                                "en": "PaddlePaddle Design Doc"
+                            }
+                        }, 
+                        {
+                            "link": {
+                                "en": "design/motivation/refactorization.md"
+                            }, 
+                            "title": {
+                                "en": "Design Doc: Refactorization Overview"
+                            }
+                        }, 
+                        {
+                            "link": {
+                                "en": "design/motivation/fluid.md"
+                            }, 
+                            "title": {
+                                "en": "Design Doc: PaddlePaddle Fluid"
+                            }
+                        }, 
+                        {
+                            "link": {
+                                "en": "design/motivation/fluid_compiler.md"
+                            }, 
+                            "title": {
+                                "en": "PaddlePaddle Fluid: Towards a Compiled Programming Language"
+                            }
+                        }
+                    ], 
+                    "link": {
+                        "en": "design/motivation/index_en.rst"
+                    }, 
+                    "title": {
+                        "en": "Design Motivations and Goals"
+                    }
+                }, 
+                {
+                    "sections": [
+                        {
+                            "link": {
+                                "en": "design/execution/switch.md"
+                            }, 
+                            "title": {
+                                "en": "Design Doc: Switch"
+                            }
+                        }, 
+                        {
+                            "link": {
+                                "en": "design/execution/if_else_op.md"
+                            }, 
+                            "title": {
+                                "en": "The IfElse Operator"
+                            }
+                        }
+                    ], 
+                    "link": {
+                        "en": "design/execution/index_en.rst"
+                    }, 
+                    "title": {
+                        "en": "Execution Process"
+                    }
+                }, 
+                {
+                    "sections": [
+                        {
+                            "link": {
+                                "en": "design/concepts/README.md"
+                            }, 
+                            "title": {
+                                "en": "Required CMake Function"
+                            }
+                        }, 
+                        {
+                            "link": {
+                                "en": "design/concepts/cpp_data_feeding.md"
+                            }, 
+                            "title": {
+                                "en": "C++ Data Feeding"
+                            }
+                        }, 
+                        {
+                            "link": {
+                                "en": "design/concepts/functions_operators_layers.md"
+                            }, 
+                            "title": {
+                                "en": "Design Doc: Functions, Operators, and Layers"
+                            }
+                        }, 
+                        {
+                            "link": {
+                                "en": "design/concepts/program.md"
+                            }, 
+                            "title": {
+                                "en": "Design Doc: PaddlePaddle Programs"
+                            }
+                        }, 
+                        {
+                            "link": {
+                                "en": "design/concepts/variable.md"
+                            }, 
+                            "title": {
+                                "en": "Design Doc: Variable"
+                            }
+                        }, 
+                        {
+                            "link": {
+                                "en": "design/concepts/var_desc.md"
+                            }, 
+                            "title": {
+                                "en": "Design Doc: Var_desc"
+                            }
+                        }, 
+                        {
+                            "link": {
+                                "en": "design/concepts/tensor.md"
+                            }, 
+                            "title": {
+                                "en": "Tensor: An Unified Data Type in PaddlePaddle"
+                            }
+                        }, 
+                        {
+                            "link": {
+                                "en": "design/concepts/tensor_array.md"
+                            }, 
+                            "title": {
+                                "en": "Design for TensorArray"
+                            }
+                        }, 
+                        {
+                            "link": {
+                                "en": "design/concepts/lod_tensor.md"
+                            }, 
+                            "title": {
+                                "en": "Design Doc: LoD (Level-of-Detail) Tensor"
+                            }
+                        }, 
+                        {
+                            "link": {
+                                "en": "design/concepts/block.md"
+                            }, 
+                            "title": {
+                                "en": "Design Doc: Block and Scope"
+                            }
+                        }, 
+                        {
+                            "link": {
+                                "en": "design/concepts/scope.md"
+                            }, 
+                            "title": {
+                                "en": "Design of Scope in Paddle"
+                            }
+                        }, 
+                        {
+                            "link": {
+                                "en": "design/concepts/executor.md"
+                            }, 
+                            "title": {
+                                "en": "Executor Design Doc"
+                            }
+                        }, 
+                        {
+                            "link": {
+                                "en": "design/concepts/parallel_executor.md"
+                            }, 
+                            "title": {
+                                "en": "ParallelExecutor"
+                            }
+                        }
+                    ], 
+                    "link": {
+                        "en": "design/concepts/index_en.rst"
+                    }, 
+                    "title": {
+                        "en": "Core Concepts"
+                    }
+                }, 
+                {
+                    "sections": [
+                        {
+                            "link": {
+                                "en": "design/data_type/float16.md"
+                            }, 
+                            "title": {
+                                "en": "Design Doc: float16"
+                            }
+                        }
+                    ], 
+                    "link": {
+                        "en": "design/data_type/index_en.rst"
+                    }, 
+                    "title": {
+                        "en": "Data Type"
+                    }
+                }, 
+                {
+                    "sections": [
+                        {
+                            "link": {
+                                "en": "design/memory/memory_optimization.md"
+                            }, 
+                            "title": {
+                                "en": "Memory Optimization"
+                            }
+                        }
+                    ], 
+                    "link": {
+                        "en": "design/memory/index_en.rst"
+                    }, 
+                    "title": {
+                        "en": "Memory Management"
+                    }
+                }, 
+                {
+                    "sections": [
+                        {
+                            "link": {
+                                "en": "design/multi_devices/operator_kernel_type.md"
+                            }, 
+                            "title": {
+                                "en": "Design Doc: The Keys of Operator Kernel Type"
+                            }
+                        }, 
+                        {
+                            "link": {
+                                "en": "design/multi_devices/kernel_selection.md"
+                            }, 
+                            "title": {
+                                "en": "Kernel Selection"
+                            }
+                        }, 
+                        {
+                            "link": {
+                                "en": "design/multi_devices/kernel_hint_design.md"
+                            }, 
+                            "title": {
+                                "en": "Kernel Hint Design"
+                            }
+                        }
+                    ], 
+                    "link": {
+                        "en": "design/multi_devices/index_en.rst"
+                    }, 
+                    "title": {
+                        "en": "Multi-Device Support"
+                    }
+                }, 
+                {
+                    "sections": [
+                        {
+                            "link": {
+                                "en": "design/dynamic_rnn/rnn.md"
+                            }, 
+                            "title": {
+                                "en": "RNNOp design"
+                            }
+                        }, 
+                        {
+                            "link": {
+                                "en": "design/dynamic_rnn/rnn_design.md"
+                            }, 
+                            "title": {
+                                "en": "RNN \u53d8\u957f\u8f93\u5165\u8bbe\u8ba1"
+                            }
+                        }
+                    ], 
+                    "link": {
+                        "en": "design/dynamic_rnn/index_en.rst"
+                    }, 
+                    "title": {
+                        "en": "Dynamic RNN"
+                    }
+                }, 
+                {
+                    "sections": [
+                        {
+                            "link": {
+                                "en": "design/concurrent/concurrent_programming.md"
+                            }, 
+                            "title": {
+                                "en": "Design Doc: Concurrent Programming with Fluid"
+                            }
+                        }, 
+                        {
+                            "link": {
+                                "en": "design/concurrent/parallel_do.md"
+                            }, 
+                            "title": {
+                                "en": "Design Doc: Parallel_Do in PaddlePaddle"
+                            }
+                        }
+                    ], 
+                    "link": {
+                        "en": "design/concurrent/index_en.rst"
+                    }, 
+                    "title": {
+                        "en": "Concurrent Programming"
+                    }
+                }, 
+                {
+                    "sections": [
+                        {
+                            "link": {
+                                "en": "design/algorithm/parameter_average.md"
+                            }, 
+                            "title": {
+                                "en": "Averaging Parameter in PaddlePaddle"
+                            }
+                        }
+                    ], 
+                    "link": {
+                        "en": "design/algorithm/index_en.rst"
+                    }, 
+                    "title": {
+                        "en": "Gradient Update Algorithm"
+                    }
+                }, 
+                {
+                    "sections": [
+                        {
+                            "link": {
+                                "en": "design/network/sequence_decoder.md"
+                            }, 
+                            "title": {
+                                "en": "Design: Sequence Decoder Generating LoDTensors"
+                            }
+                        }
+                    ], 
+                    "link": {
+                        "en": "design/network/index_en.rst"
+                    }, 
+                    "title": {
+                        "en": "Complex Network Design"
+                    }
+                }, 
+                {
+                    "sections": [
+                        {
+                            "link": {
+                                "en": "design/modules/backward.md"
+                            }, 
+                            "title": {
+                                "en": "Backward Building"
+                            }
+                        }, 
+                        {
+                            "link": {
+                                "en": "design/modules/python_api.md"
+                            }, 
+                            "title": {
+                                "en": "Design Doc: Python API"
+                            }
+                        }, 
+                        {
+                            "link": {
+                                "en": "design/modules/regularization.md"
+                            }, 
+                            "title": {
+                                "en": "Regularization in PaddlePaddle"
+                            }
+                        }, 
+                        {
+                            "link": {
+                                "en": "design/modules/infer_var_type.md"
+                            }, 
+                            "title": {
+                                "en": "Design Doc: InferVarType"
+                            }
+                        }, 
+                        {
+                            "link": {
+                                "en": "design/modules/optimizer.md"
+                            }, 
+                            "title": {
+                                "en": "Optimizer Design"
+                            }
+                        }, 
+                        {
+                            "link": {
+                                "en": "design/modules/prune.md"
+                            }, 
+                            "title": {
+                                "en": "Prune"
+                            }
+                        }, 
+                        {
+                            "link": {
+                                "en": "design/modules/register_grad_op.md"
+                            }, 
+                            "title": {
+                                "en": "Design Doc: Gradient Operators Registration"
+                            }
+                        }, 
+                        {
+                            "link": {
+                                "en": "design/modules/net_op_design.md"
+                            }, 
+                            "title": {
+                                "en": "Network Design"
+                            }
+                        }
+                    ], 
+                    "link": {
+                        "en": "design/modules/index_en.rst"
+                    }, 
+                    "title": {
+                        "en": "Code Structure and Important Modules"
+                    }
+                }, 
+                {
+                    "link": {
+                        "en": "design/interface/index_en.rst"
+                    }, 
+                    "title": {
+                        "en": "Multi-Language Interface"
+                    }
+                }, 
+                {
+                    "sections": [
+                        {
+                            "link": {
+                                "en": "design/dist_train/distributed_architecture.md"
+                            }, 
+                            "title": {
+                                "en": "Design Doc: Fluid Distributed Training Architecture"
+                            }
+                        }, 
+                        {
+                            "link": {
+                                "en": "design/dist_train/distributed_lookup_table_design.md"
+                            }, 
+                            "title": {
+                                "en": "Design Doc: Distributed Lookup Table Operator"
+                            }
+                        }, 
+                        {
+                            "link": {
+                                "en": "design/dist_train/parameter_server.md"
+                            }, 
+                            "title": {
+                                "en": "Design Doc: Parameter Server"
+                            }
+                        }
+                    ], 
+                    "link": {
+                        "en": "design/dist_train/index_en.rst"
+                    }, 
+                    "title": {
+                        "en": "Distributed Training"
+                    }
+                }
+            ], 
+            "link": {
+                "en": "design/index_en.rst"
+            }, 
+            "title": {
+                "en": "Design"
+            }
+        }, 
+        {
+            "sections": [
+                {
+                    "sections": [
+                        {
+                            "link": {
+                                "en": "howto/optimization/cpu_profiling_en.md"
+                            }, 
+                            "title": {
+                                "en": "Tune CPU performance"
+                            }
+                        }, 
+                        {
+                            "link": {
+                                "en": "howto/optimization/benchmark/index_en.rst"
+                            }, 
+                            "title": {
+                                "en": "Benchmark"
+                            }
+                        }
+                    ], 
+                    "link": {
+                        "en": "howto/optimization/index_en.rst"
+                    }, 
+                    "title": {
+                        "en": "Performance Optimization"
+                    }
+                }
+            ], 
+            "link": {
+                "en": "howto/index_en.rst"
+            }, 
+            "title": {
+                "en": "HOW TO"
+            }
+        }, 
+        {
+            "sections": [
+                {
+                    "link": {
+                        "en": "dev/contribute_to_paddle_en.md"
+                    }, 
+                    "title": {
+                        "en": "Contribute Code"
+                    }
+                }, 
+                {
+                    "link": {
+                        "en": "dev/api_doc_std_en.md"
+                    }, 
+                    "title": {
+                        "en": "API Doc Standard"
+                    }
+                }, 
+                {
+                    "link": {
+                        "en": "dev/new_op_en.md"
+                    }, 
+                    "title": {
+                        "en": "How to write a new operator"
+                    }
+                }, 
+                {
+                    "link": {
+                        "en": "dev/new_op_kernel.md"
+                    }, 
+                    "title": {
+                        "en": "Add Kernels for a New Device"
+                    }
+                }, 
+                {
+                    "link": {
+                        "en": "dev/use_eigen_en.md"
+                    }, 
+                    "title": {
+                        "en": "How to use Eigen in Paddle"
+                    }
+                }, 
+                {
+                    "link": {
+                        "en": "dev/name_convention.md"
+                    }, 
+                    "title": {
+                        "en": "Operator\u2019s Parameter Name Convention"
+                    }
+                }, 
+                {
+                    "link": {
+                        "en": "dev/support_new_device.md"
+                    }, 
+                    "title": {
+                        "en": "Design Doc: Supporting new Device/Library"
+                    }
+                }, 
+                {
+                    "link": {
+                        "en": "dev/releasing_process_en.md"
+                    }, 
+                    "title": {
+                        "en": "PaddlePaddle Releasing Process"
+                    }
+                }, 
+                {
+                    "link": {
+                        "en": "dev/op_markdown_format.md"
+                    }, 
+                    "title": {
+                        "en": "Standard Markdown Format for Operators"
+                    }
+                }
+            ], 
+            "link": {
+                "en": "dev/index_en.rst"
+            }, 
+            "title": {
+                "en": "Development"
+            }
+        }, 
+        {
+            "link": {
+                "en": "faq/index_en.rst"
+            }, 
+            "title": {
+                "en": "FAQ"
+            }
+        }, 
+        {
+            "sections": [
+                {
+                    "link": {
+                        "en": "api/fluid.rst"
+                    }, 
+                    "title": {
+                        "en": "fluid"
+                    }
+                }, 
+                {
+                    "link": {
+                        "en": "api/layers.rst"
+                    }, 
+                    "title": {
+                        "en": "fluid.layers"
+                    }
+                }, 
+                {
+                    "link": {
+                        "en": "api/data_feeder.rst"
+                    }, 
+                    "title": {
+                        "en": "fluid.data_feeder"
+                    }
+                }, 
+                {
+                    "link": {
+                        "en": "api/executor.rst"
+                    }, 
+                    "title": {
+                        "en": "fluid.executor"
+                    }
+                }, 
+                {
+                    "link": {
+                        "en": "api/initializer.rst"
+                    }, 
+                    "title": {
+                        "en": "fluid.initializer"
+                    }
+                }, 
+                {
+                    "link": {
+                        "en": "api/metrics.rst"
+                    }, 
+                    "title": {
+                        "en": "fluid.metrics"
+                    }
+                }, 
+                {
+                    "link": {
+                        "en": "api/nets.rst"
+                    }, 
+                    "title": {
+                        "en": "fluid.nets"
+                    }
+                }, 
+                {
+                    "link": {
+                        "en": "api/clip.rst"
+                    }, 
+                    "title": {
+                        "en": "fluid.clip"
+                    }
+                }, 
+                {
+                    "link": {
+                        "en": "api/optimizer.rst"
+                    }, 
+                    "title": {
+                        "en": "fluid.optimizer"
+                    }
+                }, 
+                {
+                    "link": {
+                        "en": "api/param_attr.rst"
+                    }, 
+                    "title": {
+                        "en": "fluid.param_attr"
+                    }
+                }, 
+                {
+                    "link": {
+                        "en": "api/profiler.rst"
+                    }, 
+                    "title": {
+                        "en": "fluid.profiler"
+                    }
+                }, 
+                {
+                    "link": {
+                        "en": "api/regularizer.rst"
+                    }, 
+                    "title": {
+                        "en": "fluid.regularizer"
+                    }
+                }, 
+                {
+                    "link": {
+                        "en": "api/io.rst"
+                    }, 
+                    "title": {
+                        "en": "fluid.io"
+                    }
+                }, 
+                {
+                    "link": {
+                        "en": "api/transpiler.rst"
+                    }, 
+                    "title": {
+                        "en": "fluid.transpiler"
+                    }
+                }, 
+                {
+                    "link": {
+                        "en": "api/recordio_writer.rst"
+                    }, 
+                    "title": {
+                        "en": "fluid.recordio_writer"
+                    }
+                }, 
+                {
+                    "link": {
+                        "en": "api/backward.rst"
+                    }, 
+                    "title": {
+                        "en": "fluid.backward"
+                    }
+                }, 
+                {
+                    "link": {
+                        "en": "api/average.rst"
+                    }, 
+                    "title": {
+                        "en": "fluid.average"
+                    }
+                }, 
+                {
+                    "link": {
+                        "en": "api/profiler.rst"
+                    }, 
+                    "title": {
+                        "en": "fluid.profiler"
+                    }
+                }
+            ], 
+            "link": {
+                "en": "api/index_en.rst"
+            }, 
+            "title": {
+                "en": "API"
+            }
+        }
+    ]
+}

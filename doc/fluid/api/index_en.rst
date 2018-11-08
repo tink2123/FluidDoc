@@ -1,10 +1,11 @@
 =============
-API Reference
+API
 =============
 
 ..  toctree::
     :maxdepth: 1
 
+    api_guides/index.rst
     fluid.rst
     layers.rst
     data_feeder.rst
