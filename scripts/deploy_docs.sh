@@ -50,6 +50,8 @@ docker run -it \
     -e DEPLOY_DOCS_SH=$DEPLOY_DOCS_SH \
     -e TRAVIS_PULL_REQUEST=$TRAVIS_PULL_REQUEST \
     -e PPO_SCRIPT_BRANCH=$PPO_SCRIPT_BRANCH \
+    -e AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID \
+    -e AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY \
     -e PADDLE_ROOT=/FluidDoc/external/Paddle \
     -e PYTHONPATH=/FluidDoc/external/Paddle/build/python \
     -v "$PWD:/FluidDoc" \
